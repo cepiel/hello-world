@@ -3,11 +3,24 @@
     <head>
         <link rel="stylesheet" href="styles/styles.css" />
         <script async src = "./javascript/index.js"></script>
-        <title> My Webpage </title>
+        <script type="text/javascript" src = "./javascript/selectors.js"></script>
+
+        <title> Test Page </title>
     </head>
     <body>
-        <h1>Hello, World!</h1>
-        <h3 = id='date'></h3>
+
+        <h1>Hello <span class="red_text" id="result" >World</span>!</h1>
+        <h3 id='date'></h3>
+
+        <a href="new_page.html">Click here for a new page</a>
+
+
+        <form id="form1" method="get">
+                Name: <input id="name" type="text" /><br/>
+                <input type="button" value="Submit" onclick="submitFn()" />
+                <input type="button" onclick="alert('Hello World!')" value="Click Me!"><br/>
+        </form>
+
 
         <div class="image-section">
             <div class= "section-style">

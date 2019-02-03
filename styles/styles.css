@@ -17,3 +17,11 @@ div {
     margin-left: 25px;
     background-color: white;
 }
+
+.red_text{
+    color: red;
+}
+
+form{
+    margin-top: 25px;
+}
